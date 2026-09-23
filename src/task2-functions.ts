@@ -1,5 +1,5 @@
 // src/tasks/task2-functions.ts
-import { Book } from '../types';
+import { Book, Catalog, BookFilter } from './task1-types';
 
 export function formatBook(book: Book): string {
   // Вернуть строку: "Title (Year): Authors"

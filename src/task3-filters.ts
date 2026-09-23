@@ -1,5 +1,5 @@
 // src/tasks/task3-filters.ts
-import { Book, BookFilter } from '../types';
+import { Book, Catalog, BookFilter } from './task1-types';
 
 export const filterByAuthor = (authorName: string): BookFilter => {
   // Вернуть функцию, которая проверяет, есть ли authorName в book.authors
